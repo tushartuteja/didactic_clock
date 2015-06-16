@@ -2,7 +2,6 @@
  
 require 'sinatra'
 require 'didactic_clock/time_keeper'
- 
 # otherwise sinatra won't always automagically launch its embedded 
 # http server when this script is executed
 set :run, true
